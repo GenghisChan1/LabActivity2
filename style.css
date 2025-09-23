@@ -1,0 +1,131 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Body styling */
+body {
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container for forms */
+.container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Inputs */
+input, select, button {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus effect */
+input:focus, select:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(59,130,246,0.5);
+}
+
+/* Fieldsets */
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Radio and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 6px;
+}
+
+/* Buttons */
+button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* Home page */
+body.home {
+  flex-direction: column;
+  text-align: center;
+}
+
+body.home h2 {
+  color: #111;
+  margin-bottom: 15px;
+}
+
+body.home p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+}
+
+body.home a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #ef4444;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+body.home a:hover {
+  background: #dc2626;
+}
